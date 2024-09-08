@@ -32,7 +32,6 @@ public class Game {
 
 
             System.out.println("Player position: (" + playerX + ", " + playerY + ")");
-            System.out.println("Treasure: (" + treasure.getX() + ", " + treasure.getY() + ")");
             System.out.println("Position at player: " + position);
 
             if (playerX == treasureX && playerY == treasureY) {
